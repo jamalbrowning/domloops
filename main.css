@@ -1,3 +1,33 @@
 body{
   background-color: aqua;
 }
+
+#dino-pen{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.dino {
+  border: 3px dotted rebeccapurple;
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+}
+#assignments{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.assign {
+  border: 3px dotted rebeccapurple;
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: black;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
